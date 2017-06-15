@@ -15,7 +15,7 @@ button {overflow:visible;cursor:pointer;background:none;border:0;}
 button::-moz-focus-inner {padding:0;border:0;}
 ::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder {color:#666;}
 
-input.inputTxt {line-height:1;}
+input.inputTxt {line-height:1;border-radius:0;}
 textarea, input.inputTxt {box-sizing:border-box;padding:.5rem;border:1px solid #dbdbdb;resize:none;}
 
 [type="checkbox"] {width:1.5rem;height:1.5rem;border:2px solid #666;border-radius:.3rem;box-sizing:border-box;
