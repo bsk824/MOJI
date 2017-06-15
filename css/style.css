@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.mainSection {padding:17rem 0 0;text-align:center;}
+.mainSection h1 img {width:18rem;}
+.mainSection p {color:#999;}
+.mainSection .txt {margin:2rem 0 1.5rem;}
+.mainSection .txt span {color:#666;}
+.mainSection .cop {position:fixed;right:0;bottom:4rem;left:0;}
+
+.header {position:relative;height:5.6rem;border-bottom:.1rem solid #666;text-align:center;}
+.header h1 {padding:2rem 0 0;color:#6eaac8;font-size:1.6rem;line-height:1;}
+.header .back {position:absolute;top:1.4rem;left:1rem;width:1.8rem;height:3rem;background:url(../images/btn_back1.png) no-repeat;background-size:cover;font:0/0 a!important;}
+
+[class*="signSection"] {padding:4rem 0 0;text-align:center;}
+[class*="signSection"] .user {overflow:hidden;position:relative;width:11.2rem;height:11.2rem;margin:0 auto;border-radius:50%;}
+[class*="signSection"] .user:after {content:"";position:absolute;top:0;right:0;bottom:0;left:0;border:.5rem solid #ccc;border-radius:50%;}
+[class*="signSection"] .user img {width:100%;}
+[class*="signSection"] .userId {margin:.5rem 0 0;}
+[class*="signSection"] .userId span {display:inline-block;padding:.2rem .3rem;border:.1rem solid #666;line-height:1;vertical-align:middle;}
+.signSectionJoin {padding-top:1.5rem;}
+
+.inputField {margin:4.5rem 2rem 0;}
+.inputField .inputTxt {width:100%;margin:0 0 2rem;border:0;border-bottom:1px solid #999;text-align:center;}
+.inputField .btn {width:100%;height:4rem;margin:10rem 0 0;border:.2rem solid #999;border-radius:.5rem;color:#999;}
+.signSectionJoin .inputField {margin-top:1.5rem;}
+.signSectionJoin .btn {margin:3rem 0 2rem;}
+
+.agreeBox {text-align:left;}
+.agreeBox .allChk {margin-left:-.2rem;font-size:1.5rem;}
+.agreeBox .allChk input[type="checkbox"] {width:1.8rem;height:1.8rem;}
+.agreeBox p {position:relative;margin:.5rem 0 0;font-size:1.2rem;}
+.agreeBox p a {position:absolute;top:0;right:0;padding:.5rem .5rem;background:#666;color:#fff;font-size:1.1rem;line-height:1;border-radius:.4rem;}
+
+.termsSection  {padding:0 1.5rem;}
+.termsSection h2 {margin:1.5rem 0 .5rem;font-size:1.2rem;}
+.termsSection p {color:#999;font-size:1.1rem;}
