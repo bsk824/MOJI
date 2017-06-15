@@ -12,6 +12,7 @@ body {padding:0 0 5rem;}
 .header h1 {padding:2rem 0 0;color:#6eaac8;font-size:1.6rem;line-height:1;}
 .header .back {position:absolute;top:1.4rem;left:1rem;width:1.8rem;height:3rem;background:url(../images/btn_back1.png) no-repeat;background-size:cover;font:0/0 a!important;}
 .header .setup {position:absolute;top:1.6rem;right:1rem;width:2.5rem;height:2.5rem;background:url(../images/btn_setup.png) no-repeat;background-size:cover;font:0/0 a!important;}
+.header .save {position:absolute;top:1.3rem;right:1rem;width:3.5rem;height:3rem;border:.2rem solid #6eaac8;border-radius:.5rem;color:#6eaac8;font-size:1.2rem;font-weight:bold;}
 
 [class*="signSection"] {padding:4rem 0 0;text-align:center;}
 [class*="signSection"] .user {overflow:hidden;position:relative;width:11.2rem;height:11.2rem;margin:0 auto;border-radius:50%;}
@@ -75,3 +76,7 @@ body {padding:0 0 5rem;}
 .navMenu a.more {padding-top:.7rem;}
 .navMenu a.more span {display:none;}
 .navMenu a.active:before {background-position:0 100%;}
+
+.setupSection {padding:.5rem 0 0;text-align:center;}
+.setupSection button {width:45%;height:3.5rem;margin:.5rem .2rem;border:.1rem solid #1287a5;border-radius:.5rem;color:#1287a5;font-size:1.2rem;}
+.setupSection button.active {background:#99cccc;border-color:#99cccc;color:#fff;font-weight:bold;}
