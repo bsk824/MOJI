@@ -173,7 +173,7 @@ text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap
 .pointBox .starPoint .point3:after {left:-42%;}
 .pointBox .starPoint .point2:after {left:-63%;}
 .pointBox .starPoint .point1:after {left:-84%;}
-.pointBox .starPoint .sel {display:inline-block;width:2.5rem;height:2.2rem;margin:0 0 0 .5rem;border:.1rem solid #999;background:url(../images/bg_select.png) no-repeat 50% 50%;background-size:60% auto;vertical-align:middle;}
+.pointBox .starPoint .sel {display:inline-block;width:2.5rem;height:2.2rem;margin:0 0 0 .5rem;border:.1rem solid #999;background:url(../images/bg_select.png) no-repeat 50% 50%;background-size:60% auto;vertical-align:-.4rem;}
 .pointBox .starPoint .sel select {width:100%;height:100%;opacity:0;}
 .pointBox .btn {width:100%;overflow:hidden;}
 .pointBox .btn button {float:left;width:50%;height:4.5rem;border-top:.1rem solid #999;}
