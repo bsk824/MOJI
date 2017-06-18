@@ -16,6 +16,10 @@ body {padding:0 0 5rem;}
 .header .write {position:absolute;top:1.3rem;right:1rem;width:3rem;height:3rem;padding-top:.6rem;background:#6eaac8;color:#fff;box-sizing:border-box;border-radius:.4rem;font-size:1.2rem;}
 .header .mindMap {position:absolute;top:1.3rem;right:1rem;width:2.8rem;height:3.1rem;background:url(../images/btn_mind_map.png) no-repeat;background-size:cover;font:0/0 a!important;}
 .header .list {position:absolute;top:1.3rem;right:1rem;width:2.8rem;height:3.1rem;background:url(../images/btn_list.png) no-repeat;background-size:cover;font:0/0 a!important;}
+.header .guide {position:absolute;top:1rem;right:1rem;width:3.8rem;height:3.8rem;background:#cd1419 url(../images/btn_guide.png) no-repeat;background-size:cover;border-radius:50%;font:0/0 a!important;}
+
+.header.group {border-color:#cd1419;}
+.header.group h1 {color:#cd1419;}
 
 [class*="signSection"] {padding:4rem 0 0;text-align:center;}
 [class*="signSection"] .user {overflow:hidden;position:relative;width:11.2rem;height:11.2rem;margin:0 auto;border-radius:50%;}
@@ -178,3 +182,15 @@ text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap
 .pointBox .btn {width:100%;overflow:hidden;}
 .pointBox .btn button {float:left;width:50%;height:4.5rem;border-top:.1rem solid #999;}
 .pointBox .btn button + button {border-left:.1rem solid #999;}
+
+.groupList li {position:relative;margin:1.5rem 1rem 0;padding:0 1.5rem 1rem;background:#e2e2e2;border-radius:.5rem;}
+.groupList li:before {content:"";position:absolute;top:.5rem;left:1rem;width:5rem;height:5rem;}
+.groupList .sort1:before {background:url(../images/img_sort1.png) no-repeat;background-size:cover;}
+.groupList .sort2:before {background:url(../images/img_sort2.png) no-repeat;background-size:cover;}
+.groupList .sort3:before {background:url(../images/img_sort3.png) no-repeat;background-size:cover;}
+.groupList li .title {display:block;height:5rem;padding:2rem 0 0 5rem;color:#1287a5;box-sizing:border-box;}
+.groupList li .txt {display:block;font-size:1.2rem;}
+.groupList li .count {display:block;text-align:right;font-size:1.2rem;}
+.groupList li .count .like {margin:0 0 0 1rem;}
+.groupList li .count .like span {display:inline-block;width:1.8rem;height:1.8rem;background:url(../images/btn_like.png) no-repeat;background-size:100% auto;font:0/0 a!important;vertical-align:middle;}
+.groupList li .link {position:absolute;top:2rem;right:1rem;width:2.2rem;height:2.2rem;background:url(../images/btn_group.png) no-repeat;background-size:cover;font:0/0 a!important;}
