@@ -13,6 +13,8 @@ body {padding:0 0 5rem;}
 .header .back {position:absolute;top:1.4rem;left:1rem;width:1.8rem;height:3rem;background:url(../images/btn_back1.png) no-repeat;background-size:cover;font:0/0 a!important;}
 .header .setup {position:absolute;top:1.6rem;right:1rem;width:2.5rem;height:2.5rem;background:url(../images/btn_setup.png) no-repeat;background-size:cover;font:0/0 a!important;}
 .header .save {position:absolute;top:1.3rem;right:1rem;width:3.5rem;height:3rem;border:.2rem solid #6eaac8;border-radius:.5rem;color:#6eaac8;font-size:1.2rem;font-weight:bold;}
+.header .write {position:absolute;top:1.3rem;right:1rem;width:3rem;height:3rem;padding-top:.6rem;background:#6eaac8;color:#fff;box-sizing:border-box;border-radius:.4rem;font-size:1.2rem;}
+.header .mindMap {position:absolute;top:1.3rem;right:1rem;width:2.8rem;height:3.1rem;background:url(../images/btn_mind_map.png) no-repeat;background-size:cover;font:0/0 a!important;}
 
 [class*="signSection"] {padding:4rem 0 0;text-align:center;}
 [class*="signSection"] .user {overflow:hidden;position:relative;width:11.2rem;height:11.2rem;margin:0 auto;border-radius:50%;}
@@ -88,13 +90,57 @@ body {padding:0 0 5rem;}
 
 .learningList li {position:relative;height:14rem;border-bottom:.1rem solid #ccc;}
 .learningList li:after {content:"";position:absolute;top:2.5rem;bottom:2.5rem;left:0;width:.5rem;}
-.learningList li:before {content:"";position:absolute;top:0;left:0;width:5rem;height:5rem;}
+.learningList li:before {content:"";position:absolute;top:2rem;left:2.5rem;width:5rem;height:5rem;}
+.learningList li a {display:block;}
 .learningList .sort1:after {background:#6eaac8;}
 .learningList .sort1:before {background:url(../images/img_sort1.png) no-repeat;background-size:cover;}
 .learningList .sort2:after {background:#cd1419;}
 .learningList .sort2:before {background:url(../images/img_sort2.png) no-repeat;background-size:cover;}
 .learningList .sort3:after {background:#f5af55;}
 .learningList .sort3:before {background:url(../images/img_sort3.png) no-repeat;background-size:cover;}
+
+.learningList .title {display:block;padding:2.5rem 0 0 9rem}
+.learningList .title span {display:block;color:#1287a5;font-size:1.1rem;}
+.learningList .txt {display:block;margin:2rem 2rem 0 3rem;font-size:1.2rem;line-height:1.4;overflow:hidden;
+text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap:break-word;
+-webkit-line-clamp:2;
+}
+
+.learningDetail .title {padding:1.5rem;border-bottom:.5rem solid #e0e0e0;font-size:1.6rem;line-height:1;}
+.learningDetail .bookImg {padding:1.2rem 2rem 2.5rem;text-align:center;}
+.learningDetail .bookImg img {width:100%;}
+.learningDetail .bookImg figcaption {margin:2rem 0 0;text-align:left;font-size:1.2rem;line-height:1.3;}
+.learningDetail .bookUser {position:relative;padding:1.2rem 0 1.2rem 1rem;border-top:.1rem solid #e1e1e1;border-bottom:.5rem solid #e0e0e0;}
+.learningDetail .bookUser .thumb {position:relative;display:inline-block;width:5rem;height:5rem;margin:0 1rem 0 0;border-radius:50%;overflow:hidden;vertical-align:middle;}
+.learningDetail .bookUser .thumb img {width:100%;}
+.learningDetail .bookUser .thumb:after {content:"";position:absolute;top:0;right:0;bottom:0;left:0;border:.2rem solid #1287a5;border-radius:50%;}
+.learningDetail .bookUser [class*="point"] {overflow:hidden;position:absolute;top:2.8rem;right:2rem;width:10rem;height:1.7rem;background:url(../images/img_point.png) no-repeat;background-size:100% auto;font:0/0 a!important;}
+.learningDetail .bookUser [class*="point"]:after {content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;background:#fff url(../images/img_point.png) no-repeat 0 100%;background-size:100% auto;}
+.learningDetail .bookUser .point1:after {left:-83%;}
+.learningDetail .bookUser .point2:after {left:-62.8%;}
+.learningDetail .bookUser .point3:after {left:-41%;}
+.learningDetail .bookUser .point4:after {left:-20%;}
+.learningDetail .bookUser .point5:after {left:0;}
+.learningDetail .bookInfo {position:relative;padding:2rem 0 0;}
+.learningDetail .bookInfo .img {display:block;text-align:center;}
+.learningDetail .bookInfo .img img {width:80%;}
+.learningDetail .count {position:relative;padding:1rem .5rem .5rem;border-bottom:.1rem solid #e0e0e0;font-size:1.2rem;}
+.learningDetail .count span {display:inline-block;margin:0 0 0 .5rem;}
+.learningDetail .count .view {position:absolute;right:1rem;bottom:.5rem;}
+.learningDetail .bookInfo .txt {padding:1rem 1.5rem;font-size:1.2rem;}
+.learningDetail .bookInfo .share {position:absolute;top:1.5rem;right:1.2rem;}
+.learningDetail .bookInfo .share .btn {width:2.1rem;height:2.5rem;background:url(../images/btn_share.png) no-repeat;background-size:cover;font:0/0 a!important;}
+.learningDetail .bookInfo .share .list {display:none;position:absolute;top:3rem;right:0;padding:.5rem 1rem;background:#fff;border:.1rem solid #ccc;font-size:1.2rem;}
+.learningDetail .bookInfo .share .list li {padding:.5rem 0;border-top:.1rem solid #ccc;text-align:center;}
+.learningDetail .bookInfo .share .list li:first-child {border:0;}
+.learningDetail .btns {display:table;width:100%;background:#f4f4f4;border-top:.1rem solid #ccc;border-bottom:1.5rem solid #e0e0e0;}
+.learningDetail .btns li {display:table-cell;width:25%;height:4rem;vertical-align:middle;}
+.learningDetail .btns a,
+.learningDetail .btns button {display:block;width:3rem;height:3rem;margin:0 auto;font:0/0 a!important;}
+.learningDetail .btns .like {background:url(../images/btn_like.png) no-repeat;background-size:100% auto;}
+.learningDetail .btns .reply {background:url(../images/btn_reply.png) no-repeat;background-size:100% auto;}
+.learningDetail .btns .save {height:3.2rem;background:url(../images/btn_save.png) no-repeat;background-size:100% auto;}
+.learningDetail .btns .point {background:url(../images/btn_point.png) no-repeat;background-size:100% auto;}
 
 .replyList .nonList {position:absolute;top:50%;right:0;left:0;transform:translateY(-80%);text-align:center;line-height:1.2;}
 .replyList ul {position:absolute;top:0;right:0;bottom:4rem;left:0;overflow:auto;-webkit-overflow-scrolling:touch;}
@@ -110,3 +156,8 @@ body {padding:0 0 5rem;}
 .replySection .replyInput .inputTxt {width:100%;height:4rem;border:0;background:none;}
 .replySection .replyInput .picture {position:absolute;top:1.1rem;right:6rem;width:2.5rem;height:1.8rem;font:0/0 a!important;background:url(../images/btn_picture.png) no-repeat;background-size:cover;}
 .replySection .replyInput .btn {position:absolute;top:.8rem;right:1rem;width:4rem;height:2.5rem;background:#ccc;color:#fff;}
+
+.allViewSection {padding:2rem;color:#999;font-size:1.2rem;}
+.allViewSection h2 {position:relative;margin:0 0 1rem;color:#333;font-size:1.2rem;}
+.allViewSection h2:before {content:"";position:absolute;top:.2rem;left:-2rem;width:1.4rem;height:1.4rem;background:#6eaac8;border-radius:0 .2rem .2rem 0;}
+.allViewSection h2 ~ h2 {margin-top:2rem;}
