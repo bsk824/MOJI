@@ -166,14 +166,14 @@ text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap
 .pointBox {margin:2rem 1.5rem 5rem;border:1px solid #999;border-radius:.8rem;}
 .pointBox .tit {padding:1rem 0;color:#999;text-align:center;font-size:1.6rem;}
 .pointBox .starPoint {margin:2rem 0 6rem;text-align:center;}
-.pointBox .starPoint [class*="point"] {position:relative;overflow:hidden;display:inline-block;width:20rem;height:3.05rem;background:url(../images/img_point2.png) no-repeat;background-size:100% auto;font:0/0 a!important;vertical-align:-.6rem;}
+.pointBox .starPoint [class*="point"] {position:relative;overflow:hidden;display:inline-block;width:20rem;height:3.05rem;background:url(../images/img_point2.png) no-repeat;background-size:100% auto;font:0/0 a!important;vertical-align:middle;}
 .pointBox .starPoint [class*="point"]:after {content:"";position:absolute;top:0;bottom:0;left:-100%;width:100%;background:#fff url(../images/img_point2_on.png) no-repeat 0 100%;background-size:100% auto;}
 .pointBox .starPoint .point5:after {left:0;}
 .pointBox .starPoint .point4:after {left:-21%;}
 .pointBox .starPoint .point3:after {left:-42%;}
 .pointBox .starPoint .point2:after {left:-63%;}
 .pointBox .starPoint .point1:after {left:-84%;}
-.pointBox .starPoint .sel {display:inline-block;width:2.5rem;height:2rem;margin:0 0 0 .5rem;border:.1rem solid #999;background:url(../images/bg_select.png) no-repeat 50% 50%;background-size:60% auto;}
+.pointBox .starPoint .sel {display:inline-block;width:2.5rem;height:2.2rem;margin:0 0 0 .5rem;border:.1rem solid #999;background:url(../images/bg_select.png) no-repeat 50% 50%;background-size:60% auto;vertical-align:middle;}
 .pointBox .starPoint .sel select {width:100%;height:100%;opacity:0;}
 .pointBox .btn {width:100%;overflow:hidden;}
 .pointBox .btn button {float:left;width:50%;height:4.5rem;border-top:.1rem solid #999;}
