@@ -59,7 +59,7 @@ body {padding:0 0 5rem;}
 .termsSection p {color:#999;font-size:1.1rem;}
 
 [class*="picColor"] {position:relative;overflow:hidden;border-radius:50%;}
-[class*="picColor"]:before {content:"";position:absolute;top:0;right:0;bottom:0;left:0;border:.2rem solid #999;border-radius:50%;}
+[class*="picColor"]:before {content:"";position:absolute;top:0;right:0;bottom:0;left:0;border:.2rem solid #ccc;border-radius:50%;}
 .picColor1:before {border-color:#6eaac8;}
 .picColor2:before {border-color:#cd1419;}
 .picColor3:before {border-color:#f5af55;}
@@ -160,6 +160,7 @@ text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap
 .learningDetail .btns .reply {background:url(../images/btn_reply.png) no-repeat;background-size:100% auto;}
 .learningDetail .btns .save {height:3.2rem;background:url(../images/btn_save.png) no-repeat;background-size:100% auto;}
 .learningDetail .btns .point {background:url(../images/btn_point.png) no-repeat;background-size:100% auto;}
+.learningDetail .btns .active {background-position:0 100%;}
 
 .replyList .nonList {position:absolute;top:50%;right:0;left:0;transform:translateY(-80%);text-align:center;line-height:1.2;}
 .replyList ul {position:absolute;top:0;right:0;bottom:4rem;left:0;overflow:auto;-webkit-overflow-scrolling:touch;}
@@ -271,8 +272,8 @@ text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap
 .tabMyMoji button + button span {border-left:.1rem solid #666;}
 
 .tabMyMojiCont {border-top:.4rem solid #e8e8e8;}
-.tabMyMojiCont > ul {display:none;padding:1rem;}
-.tabMyMojiCont > ul.active {display:block;}
+.tabMyMojiCont > .tabCont {display:none;padding:1rem;}
+.tabMyMojiCont > .tabCont.active {display:block;}
 .tabMyMojiCont li {position:relative;height:6rem;padding:1rem 1.5rem 0 6.5rem;background:#e2e2e2;border-radius:.5rem;box-sizing:border-box;}
 .tabMyMojiCont li + li {margin-top:1rem;}
 .tabMyMojiCont li:before {content:"";position:absolute;top:.5rem;left:1rem;width:5rem;height:5rem;}
@@ -306,6 +307,7 @@ text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;word-wrap
 .customerCont .list .tit {position:relative;width:100%;padding:.5rem 2.5rem;text-align:left;font-size:1.2rem;}
 .customerCont .list .tit:before {content:"";position:absolute;top:.6rem;left:0;width:1.6rem;height:1.6rem;background:#666;border-radius:0 .3rem .3rem 0;}
 .customerCont .list .cont {display:none;padding:1rem 2.5rem 2rem;background:#f4f4f4;border-top:.1rem solid #ccc;}
+.customerCont .list .current .cont {display:block;}
 
 .customerCont .nonQna {margin:3rem 0;text-align:center;}
 

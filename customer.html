@@ -17,15 +17,15 @@
     </header>
     <section class="customerSection">
         <div class="customerTab">
-            <button type="button">FAQ</button>
+            <button type="button" class="active">FAQ</button>
             <button type="button">공지사항</button>
-            <button type="button" class="active">1:1 문의</button>
+            <button type="button">1:1 문의</button>
         </div>
         <div class="customerCont">
-            <section>
+            <section class="tabCont active">
                 <h1 class="hidden">FAQ</h1>
                 <ul class="list">
-                    <li>
+                    <li class="current">
                         <button type="button" class="tit">게시글 작성 및 파일 첨부는 어떻게 하나요?</button>
                         <div class="cont">
                             <p>원하시는 게시글를 작성하시고 하단의 첨부아이콘을 클릭하시면 파일을 첨부할수 있는 화면으로 전환됩니다.</p>
@@ -45,10 +45,10 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section class="tabCont">
                 <h1 class="hidden">공지사항</h1>
                 <ul class="list">
-                    <li>
+                    <li class="current">
                         <button type="button" class="tit">게시글 작성 및 파일 첨부는 어떻게 하나요?</button>
                         <div class="cont">
                             <p>원하시는 게시글를 작성하시고 하단의 첨부아이콘을 클릭하시면 파일을 첨부할수 있는 화면으로 전환됩니다.</p>
@@ -68,11 +68,11 @@
                     </li>
                 </ul>
             </section>
-            <section class="active">
+            <section class="tabCont">
                 <h1 class="hidden">1:1 문의</h1>
                 <p class="nonQna">1:1 문의 내역이 존재하지 않습니다.</p>
                 <ul class="list">
-                    <li>
+                    <li class="current">
                         <button type="button" class="tit">게시글 작성 및 파일 첨부는 어떻게 하나요?</button>
                         <div class="cont">
                             <p>원하시는 게시글를 작성하시고 하단의 첨부아이콘을 클릭하시면 파일을 첨부할수 있는 화면으로 전환됩니다.</p>
@@ -92,6 +92,9 @@
             </section>
         </div>
     </section>
-
+    <script>
+    tab('.customerTab button','.customerCont');
+    accodian('.customerCont .list')
+    </script>
 </body>
 </html>
